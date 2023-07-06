@@ -33,8 +33,8 @@ A instalação pode ser feita pelo site oficial do Arduino: https://www.arduino.
   - ![image](https://github.com/nicholasbarbosa/TCC/assets/54655396/e16cc7b2-aacd-4704-b5ca-b6258bc3d2b4)
   - Selecione o Board "M5Stack-Timer-Cam"
 
-
-
-
-Agora está tudo devidamente configurado para poder programar M5StickC e, consequentemente, o BUGC
+### Intalando TimerCam-arduino-master
+- Instale o arquivo .zip
+- Vá em 'Sketch' > 'Include Library' > 'Add .ZIP Library' e inclua o ZIP que baixou
+   
 
