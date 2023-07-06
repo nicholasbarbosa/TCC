@@ -33,8 +33,33 @@ A instalação pode ser feita pelo site oficial do Arduino: https://www.arduino.
   - ![image](https://github.com/nicholasbarbosa/TCC/assets/54655396/e16cc7b2-aacd-4704-b5ca-b6258bc3d2b4)
   - Selecione o Board "M5Stack-Timer-Cam"
 
-### Intalando TimerCam-arduino-master
+### Isntalando TimerCam-arduino-master
 - Instale o arquivo .zip
 - Vá em 'Sketch' > 'Include Library' > 'Add .ZIP Library' e inclua o ZIP que baixou
    
+## Wi-Fi e HTTPClient
+- Vá em 'Sketch' > 'Include Library' > 'Manage Libraries'.  'WiFi' na barra de pesquisa e instale a biblioteca correspondente. Em seguida, repita o mesmo procedimento para a biblioteca 'HTTPClient'.
+
+## Bibliotecas Python
+A maioria das bibliotecas são nativas. 
+
+Para instalar o face_recognition: pip install face_recognition
+
+Para instalar opencv: pip install opencv-python
+
+
+# Uso
+Agora, com todas as pendências resolvidas, basta executar o programa.
+
+## Arduino IDE
+No código para o funcionamento da ESP32-CAM, certifique-se de alterar os dados do WI-FI, para que o ESP32-CAM se conecte corretamente ao WI-FI, para poder fazer as requisições
+Se atente em alterar o endereço da requisição. Para pegar o IP correto da rede, basta rodar o comando 'ifconfig' no terminal.
+Após as ultimas alterações, conecte o ESP32-CAM ao computador para que possa subir o código.
+
+## Servidor Python
+É importante se atentar para alterar os caminhos das pastas usadas no servidor. Crie pastas com caminhos válidos para a correta execução.
+- Pastas necessárias:
+  - Pasta 'known' e 'unknown'
+Com o ESP32-CAM devidamente configurado, basta rodar o servidor Python. Abra o HTML para poder fazer as requisições.
+
 
