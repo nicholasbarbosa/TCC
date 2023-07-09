@@ -4,14 +4,11 @@
 #include <HTTPClient.h>
 
 const char *urlAPI = "http://192.168.1.9:8000";
-//const char *urlAPI = "http://192.168.1.106:8000";
 HTTPClient http;
 
 const char *ssid = "tchucas";
 const char *password = "#10N20S30M40";
 
-//const char *ssid = "dpi-mestrado";
-//const char *password = "DLrVk89XYj";
 
 int label = 0;
 
